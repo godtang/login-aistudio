@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { CATEGORIES, COURSES } from './data';
-import CourseCard from './components/CourseCard';
-import ChatBot from './components/ChatBot';
+import { CATEGORIES, COURSES } from './data.ts';
+import CourseCard from './components/CourseCard.tsx';
+import ChatBot from './components/ChatBot.tsx';
 
 const App: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('commands');

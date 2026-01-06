@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { VideoCourse } from '../types';
+import { VideoCourse } from '../types.ts';
 
 interface CourseCardProps {
   course: VideoCourse;
